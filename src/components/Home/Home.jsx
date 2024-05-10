@@ -35,7 +35,8 @@ const Home = () => {
               age={val.age}
               sport={val.sport}
               country={val.country}
-              status={val.status} />
+              status={val.status}
+            />
           );
         })}
       </div>

@@ -23,13 +23,13 @@ const Navbar = (Props) => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className='navbar-nav ms-auto'>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/">{Props.home}</Link>
+              <Link aria-current="page" to="/">{Props.home}</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">{Props.about}</Link>
+              <Link to="/about">{Props.about}</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">{Props.contact}</Link>
+              <Link to="#">{Props.contact}</Link>
             </li>
           </ul>
         </div>
